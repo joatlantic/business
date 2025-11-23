@@ -355,8 +355,21 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-            <p>© 2024 نجاح للاستشارات. جميع الحقوق محفوظة.</p>
+          <div className="border-t border-gray-800 mt-12 pt-8">
+            <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-gray-400">
+              <p>© 2024 نجاح للاستشارات. جميع الحقوق محفوظة.</p>
+              <div className="flex items-center gap-2">
+                <span>تصميم و تطوير:</span>
+                <a
+                  href="https://wa.me/201150321340"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-emerald-400 hover:text-emerald-300 transition-colors font-semibold"
+                >
+                  يوسف عصام
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </footer>
