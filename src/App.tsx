@@ -366,8 +366,8 @@ function App() {
                   rel="noopener noreferrer"
                   className="text-emerald-400 hover:text-emerald-300 transition-colors font-semibold flex items-center gap-1"
                 >
-                  <MessageCircle className="w-4 h-4" />
                   يوسف عصام
+                  <MessageCircle className="w-4 h-4" />
                 </a>
               </div>
             </div>
