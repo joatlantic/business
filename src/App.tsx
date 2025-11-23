@@ -1,4 +1,4 @@
-import { Award, BarChart3, CheckCircle, Facebook, Globe, Instagram, Mail, Phone, TrendingUp, Users, X } from 'lucide-react';
+import { Award, BarChart3, CheckCircle, Facebook, Globe, Instagram, Mail, MessageCircle, Phone, TrendingUp, Users, X } from 'lucide-react';
 
 function App() {
   return (
@@ -364,8 +364,9 @@ function App() {
                   href="https://wa.me/201150321340"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-emerald-400 hover:text-emerald-300 transition-colors font-semibold"
+                  className="text-emerald-400 hover:text-emerald-300 transition-colors font-semibold flex items-center gap-1"
                 >
+                  <MessageCircle className="w-4 h-4" />
                   يوسف عصام
                 </a>
               </div>
