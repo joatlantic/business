@@ -8,12 +8,7 @@ export default defineConfig({
     exclude: ['lucide-react'],
   },
   build: {
-    minify: 'terser',
-    terserOptions: {
-      compress: {
-        drop_console: true,
-      },
-    },
+    minify: 'esbuild',
     rollupOptions: {
       output: {
         manualChunks: {
